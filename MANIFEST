@@ -4,5 +4,5 @@ README
 TODO
 VERSION
 Makefile.PL
-lib/PerlIO/Via/QuotedPrint.pm
-t/01basic.t
+lib/PerlIO/via/QuotedPrint.pm
+t/QuotedPrint.t

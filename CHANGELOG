@@ -1,3 +1,9 @@
+0.03	10 July 2002
+	Added Perl CORE magic pragma to test-suite.  Changed name of test-suite
+	to QuotedPrint.t to facilitate inclusion in Perl core.
+
+	Migrated to the PerlIO::via:: namespace.
+
 0.02	9 July 2002
 	Fixed some documentation nits reported by Rafael Garcia-Suarez.
 
