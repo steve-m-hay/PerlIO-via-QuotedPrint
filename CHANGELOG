@@ -1,2 +1,11 @@
+0.02	9 July 2002
+	Fixed some documentation nits reported by Rafael Garcia-Suarez.
+
+	Version number now a '' string (oops).
+
+	8 July 2002
+	Changed object to glob reference instead of list reference.  Should
+	be a little memory saving.
+
 0.01	1 July 2002
 	Migrated from the now obsoleted IOLayer:: namespace.
