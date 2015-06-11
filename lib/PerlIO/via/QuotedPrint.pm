@@ -1,10 +1,10 @@
 package PerlIO::via::QuotedPrint;
 
-# Make sure we do things by the book
 # Set the version info
+# Make sure we do things by the book from now on
 
+$VERSION = '0.04';
 use strict;
-$PerlIO::via::QuotedPrint::VERSION = '0.03';
 
 # Make sure the encoding/decoding stuff is available
 

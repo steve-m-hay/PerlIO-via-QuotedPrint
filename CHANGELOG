@@ -1,3 +1,11 @@
+0.04	11 July 2002
+	Adapted Perl core magic in test-suite to conform to Jarkko Hietaniemi's
+	official magic.
+
+	Rearranged top of source to not need fully qualified VERSION anymore.
+
+        Checked for defined() problems: none found.
+
 0.03	10 July 2002
 	Added Perl CORE magic pragma to test-suite.  Changed name of test-suite
 	to QuotedPrint.t to facilitate inclusion in Perl core.
