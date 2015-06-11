@@ -6,3 +6,4 @@ VERSION
 Makefile.PL
 lib/PerlIO/via/QuotedPrint.pm
 t/QuotedPrint.t
+META.yml                                Module meta-data (added by MakeMaker)
