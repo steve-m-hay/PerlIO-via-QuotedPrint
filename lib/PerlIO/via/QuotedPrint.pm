@@ -1,6 +1,6 @@
 package PerlIO::via::QuotedPrint;
 
-$VERSION= '0.08';
+$VERSION= '0.09';
 
 # be as strict as possible
 use strict;
@@ -71,7 +71,7 @@ PerlIO::via::QuotedPrint - PerlIO layer for quoted-printable strings
 
 =head1 VERSION
 
-This documentation describes version 0.08.
+This documentation describes version 0.09.
 
 =head1 DESCRIPTION
 
