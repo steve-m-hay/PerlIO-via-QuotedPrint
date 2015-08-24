@@ -11,11 +11,11 @@ warn <<EOD unless $Config{useperlio};
 EOD
 
 WriteMakefile (
- NAME		=> "PerlIO::via::QuotedPrint",
- AUTHOR		=> 'Elizabeth Mattijsen (liz@dijkmat.nl)',
- ABSTRACT	=> 'PerlIO Layer for quoted-printable encoding',
- VERSION_FROM	=> 'lib/PerlIO/via/QuotedPrint.pm',
- PREREQ_PM	=> {
+ NAME           => "PerlIO::via::QuotedPrint",
+ AUTHOR         => 'Elizabeth Mattijsen (liz@dijkmat.nl)',
+ ABSTRACT       => 'PerlIO Layer for quoted-printable encoding',
+ VERSION_FROM   => 'lib/PerlIO/via/QuotedPrint.pm',
+ PREREQ_PM      => {
                     'MIME::QuotedPrint' => 0,
                    },
 );
