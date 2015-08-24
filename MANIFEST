@@ -1,8 +1,6 @@
 MANIFEST
 CHANGELOG
 README
-TODO
-VERSION
 Makefile.PL
 lib/PerlIO/via/QuotedPrint.pm
 t/QuotedPrint.t
