@@ -1,3 +1,8 @@
+use 5.008001;
+
+use strict;
+use warnings;
+
 BEGIN {                         # Magic Perl CORE pragma
     unless (find PerlIO::Layer 'perlio') {
         print "1..0 # Skip: PerlIO not used\n";
@@ -8,8 +13,6 @@ BEGIN {                         # Magic Perl CORE pragma
     }
 }
 
-use strict;
-use warnings;
 use Test::More tests => 11;
 
 BEGIN { use_ok('PerlIO::via::QuotedPrint') }
@@ -41,7 +44,7 @@ ok( close( $out ),                      'closing encoding handle' );
 
 {
 local $/ = undef;
-ok( open( my $test,$file ),             'opening without layer' );
+ok( open( my $test, '<', $file ),       'opening without layer' );
 is( $encoded,readline( $test ),         'check encoded content' );
 ok( close( $test ),                     'close test handle' );
 }

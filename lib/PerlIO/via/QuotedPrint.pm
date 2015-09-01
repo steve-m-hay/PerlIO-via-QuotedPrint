@@ -1,9 +1,18 @@
+# Copyright (c) 2002, 2003, 2004, 2012 Elizabeth Mattijsen.
+# All rights reserved.
+
+# This module is free software; you can redistribute it and/or modify it under
+# the same terms as Perl itself, i.e. under the terms of either the GNU General
+# Public License or the Artistic License, as specified in the F<LICENCE> file.
+
 package PerlIO::via::QuotedPrint;
 
-$VERSION= '0.09';
+use 5.008001;
 
 # be as strict as possible
 use strict;
+
+our $VERSION = '0.09';
 
 # modules that we need
 use MIME::QuotedPrint (); # no need to pollute this namespace
@@ -96,7 +105,11 @@ Based on example that was initially added to MIME::QuotedPrint.pm for the
 =head1 COPYRIGHT
 
 Copyright (c) 2002, 2003, 2004, 2012 Elizabeth Mattijsen.  All rights reserved.
-This library is free software; you can redistribute it and/or modify it under
-the same terms as Perl itself.
+
+=head1 LICENCE
+
+This module is free software; you can redistribute it and/or modify it under
+the same terms as Perl itself, i.e. under the terms of either the GNU General
+Public License or the Artistic License, as specified in the F<LICENCE> file.
 
 =cut

@@ -1,45 +1,77 @@
-0.09    TODO
-        TODO
+Revision history for Perl distribution PerlIO-via-QuotedPrint.
 
-0.08    18 May 2015
-        Synchronized t/QuotedPrint.t with the core perl version.
+0.09 Development
 
-0.07    5 April 2012
-        Brought up to date with current code esthetics.  Verified it runs on
-        5.14.2, threaded and unthreaded.
+    - Added optional Changes testing (skipped unless AUTHOR_TESTING).
 
-        28 January 2004
-        Made sure the test-suite cleans up on multi-versioned systems.
+    - Reformatted Changes file as per CPAN::Changes::Spec.
 
-0.06    28 December 2003
-        Added automatic required modules update using Devel::Required.
+    - Added optional POD coverage testing (skipped unless AUTHOR_TESTING).
 
-0.05    13 August 2003
-        Cleaned up Makefile.PL and updated copyright info.  Made sure the
-        test-suite runs with strict and warnings enabled.
+    - Added optional POD testing (skipped unless AUTHOR_TESTING).
 
-0.04    11 July 2002
-        Adapted Perl core magic in test-suite to conform to Jarkko Hietaniemi's
-        official magic.
+    - Added optional Perl::Critic testing (skipped unless AUTHOR_TESTING).
 
-        Rearranged top of source to not need fully qualified VERSION anymore.
+    - Made code Perl::Critic clean.
 
-        Checked for defined() problems: none found.
+    - Included GitHub repository URLs in metadata now that source code has been
+      uploaded to GitHub.
 
-0.03    10 July 2002
-        Added Perl CORE magic pragma to test-suite.  Changed name of test-suite
-        to QuotedPrint.t to facilitate inclusion in Perl core.
+    - Set minimum required ExtUtils::MakeMaker version to 6.64 to ensure that
+      all parameters used are supported, to save jumping through hoops to
+      support earlier versions.  (This should not be a problem since
+      ExtUtils::MakeMaker 6.64 is easily installed into Perl 5.8.1 and above,
+      that being the whole point of the new choice of minimum supported Perl
+      version.)
 
-        Migrated to the PerlIO::via:: namespace.
+    - Set minimum required Perl version to 5.8.1.  This is in line with the
+      minimum requirement of the "Perl Toolchain".
 
-0.02    9 July 2002
-        Fixed some documentation nits reported by Rafael Garcia-Suarez.
+0.08 2015-05-18
 
-        Version number now a '' string (oops).
+    - Synchronized t/QuotedPrint.t with the core perl version.
 
-        8 July 2002
-        Changed object to glob reference instead of list reference.  Should
-        be a little memory saving.
+0.07 2012-04-05
 
-0.01    1 July 2002
-        Migrated from the now obsoleted IOLayer:: namespace.
+    - Brought up to date with current code esthetics.  Verified it runs on
+      5.14.2, threaded and unthreaded.
+
+    - Made sure the test-suite cleans up on multi-versioned systems.
+
+0.06 2003-12-28
+
+    - Added automatic required modules update using Devel::Required.
+
+0.05 2003-08-13
+
+    - Cleaned up Makefile.PL and updated copyright info.  Made sure the
+      test-suite runs with strict and warnings enabled.
+
+0.04 2002-07-11
+
+    - Adapted Perl core magic in test-suite to conform to Jarkko Hietaniemi's
+      official magic.
+
+    - Rearranged top of source to not need fully qualified VERSION anymore.
+
+    - Checked for defined() problems: none found.
+
+0.03 2002-07-10
+
+    - Added Perl CORE magic pragma to test-suite.  Changed name of test-suite to
+      QuotedPrint.t to facilitate inclusion in Perl core.
+
+    - Migrated to the PerlIO::via:: namespace.
+
+0.02 2002-07-09
+
+    - Fixed some documentation nits reported by Rafael Garcia-Suarez.
+
+    - Version number now a '' string (oops).
+
+    - Changed object to glob reference instead of list reference.  Should be a
+      little memory saving.
+
+0.01 2002-07-01
+
+    - Migrated from the now obsoleted IOLayer:: namespace.

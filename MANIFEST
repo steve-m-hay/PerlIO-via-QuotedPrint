@@ -1,8 +1,14 @@
-MANIFEST
-Changes
-README
-Makefile.PL
-lib/PerlIO/via/QuotedPrint.pm
-t/QuotedPrint.t
-META.yml                                Module meta-data (added by MakeMaker)
-META.json                                Module JSON meta-data (added by MakeMaker)
+Artistic                                 The "Artistic License"
+Changes                                  Change log
+Copying                                  The GNU General Public License
+LICENCE                                  The Licence
+MANIFEST                                 This file
+MANIFEST.SKIP                            Manifest skip specs
+Makefile.PL                              ExtUtils::MakeMaker script
+README                                   A brief overview of the distribution
+lib/PerlIO/via/QuotedPrint.pm            PerlIO::via::QuotedPrint module
+t/changes.t                              Test script
+t/critic.t                               Test script
+t/pod.t                                  Test script
+t/pod_coverage.t                         Test script
+t/QuotedPrint.t                          Test script
