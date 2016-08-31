@@ -1,5 +1,7 @@
 # Copyright (c) 2002, 2003, 2004, 2012 Elizabeth Mattijsen.
 # All rights reserved.
+# Changes in Version 0.08 onwards Copyright (C) 2015 Steve Hay. All rights
+# reserved.
 
 # This module is free software; you can redistribute it and/or modify it under
 # the same terms as Perl itself, i.e. under the terms of either the GNU General
@@ -105,6 +107,9 @@ Based on example that was initially added to MIME::QuotedPrint.pm for the
 =head1 COPYRIGHT
 
 Copyright (c) 2002, 2003, 2004, 2012 Elizabeth Mattijsen.  All rights reserved.
+
+Changes in Version 0.08 onwards Copyright (C) 2015 Steve Hay.  All rights
+reserved.
 
 =head1 LICENCE
 
