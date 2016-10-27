@@ -3,10 +3,8 @@ README for PerlIO::via::QuotedPrint
 PerlIO layer that handles automatic conversion from and to quoted-printable
 format.  Intended to be used while opening a file with the ":via()" layer.
 
-Copyright (c) 2002, 2003, 2004, 2012 Elizabeth Mattijsen <liz@dijkmat.nl>.
-All rights reserved.
-Changes in Version 0.08 onwards Copyright (C) 2015 Steve Hay.  All rights
-reserved.
+Copyright (C) 2002-2004, 2012 Elizabeth Mattijsen. All rights reserved.
+Copyright (C) 2015 Steve Hay. All rights reserved.
 
 This distribution is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself, i.e. under the terms of either the GNU
