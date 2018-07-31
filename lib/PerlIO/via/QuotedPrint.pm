@@ -131,8 +131,6 @@ L<perlmodlib/"CPAN"> for details) at
 
 L<https://metacpan.org/release/PerlIO-via-QuotedPrint> or
 
-L<http://search.cpan.org/dist/PerlIO-via-QuotedPrint/> or
-
 L<http://www.cpan.org/authors/id/S/SH/SHAY/> or
 
 L<http://www.cpan.org/modules/by-module/PerlIO/>.
