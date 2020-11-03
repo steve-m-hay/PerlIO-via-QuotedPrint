@@ -106,13 +106,13 @@ Currently active requests on the CPAN Request Tracker can be viewed at
 L<https://rt.cpan.org/Public/Dist/Display.html?Status=Active;Queue=PerlIO-via-QuotedPrint>.
 
 Please test this distribution.  See CPAN Testers Reports at
-L<http://www.cpantesters.org/> for details of how to get involved.
+L<https://www.cpantesters.org/> for details of how to get involved.
 
 Previous test results on CPAN Testers Reports can be viewed at
-L<http://www.cpantesters.org/distro/P/PerlIO-via-QuotedPrint.html>.
+L<https://www.cpantesters.org/distro/P/PerlIO-via-QuotedPrint.html>.
 
 Please rate this distribution on CPAN Ratings at
-L<http://cpanratings.perl.org/rate/?distribution=PerlIO-via-QuotedPrint>.
+L<https://cpanratings.perl.org/rate/?distribution=PerlIO-via-QuotedPrint>.
 
 =head1 SEE ALSO
 
@@ -131,9 +131,9 @@ L<perlmodlib/"CPAN"> for details) at
 
 L<https://metacpan.org/release/PerlIO-via-QuotedPrint> or
 
-L<http://www.cpan.org/authors/id/S/SH/SHAY/> or
+L<https://www.cpan.org/authors/id/S/SH/SHAY/> or
 
-L<http://www.cpan.org/modules/by-module/PerlIO/>.
+L<https://www.cpan.org/modules/by-module/PerlIO/>.
 
 The latest source code is available from GitHub at
 L<https://github.com/steve-m-hay/PerlIO-via-QuotedPrint>.
