@@ -153,7 +153,7 @@ PerlIO::via::QuotedPrint as of version 0.08.
 
 Copyright (C) 2002-2004, 2012 Elizabeth Mattijsen.  All rights reserved.
 
-Copyright (C) 2015 Steve Hay.  All rights reserved.
+Copyright (C) 2015, 2020 Steve Hay.  All rights reserved.
 
 =head1 LICENCE
 
