@@ -1,6 +1,6 @@
 Revision history for Perl distribution PerlIO-via-QuotedPrint.
 
-0.09 Development
+0.09 2020-12-08
 
     - Added INSTALLDIRS, accounting for the @INC reordering change in Perl 5.12.
       See Perl RT#116479 for details.  (PerlIO-via-QuotedPrint entered the perl
