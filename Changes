@@ -2,7 +2,7 @@ Revision history for Perl distribution PerlIO-via-QuotedPrint.
 
 0.10 Development
 
-    - TODO
+    - Add missing exit() to t/QuotedPrint.t.  [Karl Williamson, PR#1]
 
 0.09 2020-12-08
 
