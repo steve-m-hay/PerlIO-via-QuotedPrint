@@ -11,7 +11,7 @@ Revision history for Perl distribution PerlIO-via-QuotedPrint.
 0.09 2020-12-08
 
     - Added INSTALLDIRS, accounting for the @INC reordering change in Perl 5.12.
-      See Perl RT#116479 for details.  (PerlIO-via-QuotedPrint entered the perl
+      See Perl GH#12722 for details.  (PerlIO-via-QuotedPrint entered the perl
       core in Perl 5.8.0 so that's what the lower bound of the check should
       strictly be, but since we only support Perl 5.8.1 and higher anyway we do
       not need to check the lower bound.  The upper bound is correctly Perl
